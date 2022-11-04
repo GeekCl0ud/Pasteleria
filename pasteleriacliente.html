@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasteleria Michitos</title>
+        <style>
+            header{
+                background-color: aquamarine;
+                padding: auto;
+                text-align: center;
+                font-size: 35px;
+                color: darkseagreen;
+            }
+            body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: deepskyblue;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            }
+            footer {
+            background-color: aquamarine;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        </style>
+    </head>    
+    <body>
+        <header>
+            <img src="https://i.imgur.com/NUnTy1r.png" alt="Logo" width="350px" height="350px">
+            <p>Bienvenidos</p>
+        </header>
+        <h2>Nuestros sabores</h2>
+        <h5>(Precios en MXN)</h5>
+        <table>
+            <table style="margin-left:auto;margin-right:auto;">
+            <tr>
+                <th>Sabor</th>
+                <th>Precio</th>
+                
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Vainilla</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>Tres leches</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Fresa</td>
+                <td>$110</td>
+            </tr>
+            <tr>
+                <td>Oreo</td>
+                <td>$200</td>
+            </tr>
+        </table>
+        <h2>Adornos</h2>
+        <h5>(Precios en MXN)</h5>
+        <table>
+            <table style="margin-left:auto;margin-right:auto;">
+            <tr>
+                <th>Adorno</th>
+                <th>Precio</th>
+                
+            </tr>
+            <tr>
+                <td>Vela musical</td>
+                <td>$120</td>
+            </tr>
+            <tr>
+                <td>Muñequito</td>
+                <td>$100 c/u</td>
+            </tr>
+            <tr>
+                <td>Mini letrero</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Imagen no toxico</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Papel comestible</td>
+                <td>$30</td>
+            </tr>
+        </table>
+        <h2>Realiza tu pedido!</h2>
+        <form action="/subirpedido.js" id="form1" method="post">
+        <label for="Nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="Sabor">e-mail:</label>
+        <input type="text" id="correoelec" name="correoelec"><br>
+        <label for="Sabor">Telefono:</label>
+        <input type="text" id="telefono" name="telefono"><br>
+        <label for="Sabor">Sabor:</label>
+        <input type="text" id="sabor" name="sabor"><br>
+        <label for="Saboradicional">Sabor adicional (opcional):</label>
+        <input type="text" id="saborext" name="saborext"><br>
+        <label for="">Adorno:</label>
+        <input type="text" id="adorno" name="adorno"><br>
+        <label for="">Adorno extra (opcional):</label>
+        <input type="text" id="adornoext" name="adornoext"><br>
+        <label for="Descripcion">Descripcion breve del pastel:</label>
+        <input type="text" id="descripcion" name="descripcion"><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+        </form>
+    </form>
+    <footer>
+        <p>Direccion:</p> 
+        <p>Loreto 100, Col. Peñitas, Leon, Guanajuato, C.P. 37290</p>
+        <p>Telefono:</p>
+        <p>4775755805</p>
+        <p>Horarios:</p>
+        <p>09:00 AM - 20:00PM</p>
+    </footer>
+    </body>
+</html>
